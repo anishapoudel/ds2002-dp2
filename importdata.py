@@ -38,7 +38,6 @@ def import_data(directory):
 
     return success_count, fail_count, corrupted_files
 
-# Specify the path to your JSON files
 results = import_data(directory_path)
 print(f"Successfully imported {results[0]} files.")
 print(f"Failed to import {results[1]} files.")
